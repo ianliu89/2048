@@ -82,7 +82,7 @@ public class GameBoard implements KeyListener {
     }
 
     @Override
-    public void keyTyped(KeyEvent e)
+    public void keyPressed(KeyEvent e)
     {
         int key = e.getExtendedKeyCode();
         boolean movable = true;
@@ -132,7 +132,7 @@ public class GameBoard implements KeyListener {
     }
 
     @Override
-    public void keyPressed(KeyEvent e)
+    public void keyTyped(KeyEvent e)
     {
     }
 
