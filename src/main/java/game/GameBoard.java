@@ -87,16 +87,16 @@ public class GameBoard implements KeyListener {
         int key = e.getExtendedKeyCode();
         boolean movable = true;
         switch(key) {
-            case KeyEvent.VK_2:
+            case KeyEvent.VK_DOWN:
                 movable = downPush();
                 break;
-            case KeyEvent.VK_4:
+            case KeyEvent.VK_LEFT:
                 movable = leftPush();
                 break;
-            case KeyEvent.VK_6:
+            case KeyEvent.VK_RIGHT:
                 movable = rightPush();
                 break;
-            case KeyEvent.VK_8:
+            case KeyEvent.VK_UP:
                 movable = upPush();
                 break;
             default:
